@@ -5,7 +5,7 @@ window = tk.Tk()
 canvas = tk.Canvas(window, width=900,height=900)
 canvas.pack()
 
-def sierpinsky(x,y,d,hlbka=9):
+def sierpinsky(x,y,d,hlbka=7):
     if hlbka>0:
         hlbka -=1
         canvas.create_rectangle(x,y,x+d,y+d)
