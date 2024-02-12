@@ -1,5 +1,5 @@
-def create_intervals(nums):
-    nums = sorted(nums)
+def create_intervals(data):
+    nums = sorted(data)
     if nums:
         temp = (nums[0],nums[0])
     else:
