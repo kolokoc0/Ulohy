@@ -3,7 +3,7 @@
 def create_intervals(nums):
     nums = sorted(nums)
     if nums:
-        temp = (nums[0],None)
+        temp = (nums[0],nums[0])
     else:
         return ()
     intervals = []
@@ -22,6 +22,7 @@ def create_intervals(nums):
     return intervals
 
 
+set = (0,2,4,3,10,9,7,6,8,5)
 
 
-
+print(create_intervals(set))
